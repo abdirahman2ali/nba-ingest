@@ -1,6 +1,6 @@
 # NBA Ingest — ETL pipeline (Postgres)
 
-A small, focused ETL that pulls NBA data and lands it in PostgreSQL on a schedule (cron). This repo contains the code I built to fetch the NBA data, normalize/flatten it, and upsert into Postgres tables so downstream tools (DBeaver, pgAdmin, BI tools) can query it.
+A small, focused ETL that pulls NBA data and lands it in PostgreSQL on a schedule (cron). This repo contains the code I built to fetch the NBA data, normalize/flatten it, and upsert into Postgres tables so downstream tools (dbt, BI tools) can query it.
 
 ## Features
 
