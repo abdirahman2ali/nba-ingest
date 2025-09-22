@@ -15,6 +15,3 @@ Below is a ready-to-use README.md you can drop into your repo — it documents w
 ## Architecture (High Level)
 
 [ NBA API ]  --->  [ ingest script (Python) ]  --->  [ PostgreSQL ]
-                                         ^
-                                         |
-                                     (cron)
